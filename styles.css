@@ -1,2 +1,16 @@
+/* Apply CSS properties to create a 2x2 grid */
+.holder {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two equal columns */
+    grid-template-rows: repeat(2, 1fr);    /* Two equal rows */
+    width: 200px; /* Total size of 200px */
+    height: 200px; /* Total size of 200px */
+    gap: 5px; /* Adjust gap as needed */
+}
 
-/* Your CSS Code here. */
+/* Optional: Style the items to visualize the grid */
+.item {
+    border: 1px solid #000;
+    padding: 10px;
+    text-align: center;
+}
